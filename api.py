@@ -15,4 +15,3 @@ def dashboard():
 @app.route("/map")
 def map():
     return render_template('map.html')
-
